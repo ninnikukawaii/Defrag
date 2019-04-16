@@ -12,11 +12,17 @@ FAT* defragmentation
 Например, можно запустить так:
 
 `python main.py -f _sample_fat16.vhd -m INFO -i`
+
 `python main.py -f _sample_fat16.vhd -m INFO -c -s`
+
 `python main.py -f _sample_fat16.vhd -m INFO -d 0 -c -s -r`
+
 `python main.py -f _sample_fat16.vhd -m FRAG`
+
 `python main.py -f _sample_fat16.vhd -m DEFRAG -de`
+
 `python main.py -f _sample_fat16.vhd -m ERROR -o`
+
 `python main.py -f _sample_fat16.vhd -m ERROR -b -sl -in`
 
 ## Подробности реализации
